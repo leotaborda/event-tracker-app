@@ -8,7 +8,11 @@ A aplicação permite gerenciar uma lista de eventos, adicionar, editar e exclui
 
 ## Funcionalidades
 
-*   Adicionar novos eventos com título, data e horário.", "Editar eventos existentes.", "Excluir eventos da lista.", "Filtrar eventos por data.", "Persistência de dados utilizando...
+*   Adicionar novos eventos com título, data e horário.
+*   Editar eventos existentes.
+*   Excluir eventos da lista.
+*   Filtrar eventos por data.
+*   Persistência de dados utilizando.
 
 ## Tecnologias Utilizadas
 
@@ -70,4 +74,7 @@ Este projeto foi uma excelente oportunidade para aprofundar os conhecimentos em 
 
 ## Próximos Passos
 
-*   [Liste algumas ideias para aprimorar o projeto. Ex: "Implementar testes unitários e de integração.", "Adicionar autenticação de usuários.", "Melhorar a interface do usuário.", "Implementar novas funcionalidades."]
+*   Implementar testes unitários e de integração.
+*   Adicionar autenticação de usuários.
+*   Melhorar a interface do usuário.
+*   Implementar novas funcionalidades.
