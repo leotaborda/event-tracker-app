@@ -1,4 +1,4 @@
-# Projeto: [Nome do Seu Projeto]
+# Projeto: Event Tracker
 
 ## Descrição
 
