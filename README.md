@@ -1,46 +1,73 @@
-# Getting Started with Create React App
+# Projeto: [Nome do Seu Projeto]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+Este projeto foi desenvolvido durante o curso "React: gerenciando estado com Recoil" da Alura, ministrado por Vinicios Neves. O objetivo principal foi aprender e aplicar técnicas de gerenciamento de estado em aplicações React utilizando a biblioteca Recoil.
 
-In the project directory, you can run:
+A aplicação permite gerenciar uma lista de eventos, adicionar, editar e excluir eventos de forma eficiente.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+*   Adicionar novos eventos com título, data e horário.", "Editar eventos existentes.", "Excluir eventos da lista.", "Filtrar eventos por data.", "Persistência de dados utilizando...
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+*   React
+*   Recoil
+*   TypeScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Pré-requisitos
 
-### `npm run build`
+Antes de começar, você vai precisar ter instalado em sua máquina:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*   [Node.js](https://nodejs.org/)
+*   [npm](https://www.npmjs.com/) (geralmente instalado com o Node.js)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  Clone este repositório:
 
-### `npm run eject`
+    ```bash
+    git clone [URL do repositório]
+    ```
+2.  Acesse a pasta do projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    ```bash
+    cd [nome do projeto]
+    ```
+3.  Instale as dependências:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Execução
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Para executar a aplicação, siga os seguintes passos:
 
-## Learn More
+1.  Inicie o servidor de desenvolvimento:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm run dev
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Este comando irá iniciar a aplicação no modo de desenvolvimento, geralmente acessível em `http://localhost:3000`.
+2.  Inicie o servidor JSON (se aplicável):
+
+    ```bash
+    npm run server
+    ```
+
+    Este comando irá iniciar o servidor JSON na porta 5500, `http://localhost:5500`, que será utilizado para simular uma API para persistência de dados.
+
+## Debug
+
+Durante o curso, aprendemos a utilizar ferramentas de debug para facilitar o desenvolvimento e a identificação de problemas. Para auxiliar na depuração, foi criado um componente que faz o log no console de todas as alterações de estado.
+
+## Considerações Finais
+
+Este projeto foi uma excelente oportunidade para aprofundar os conhecimentos em gerenciamento de estado com Recoil e aplicar as boas práticas de desenvolvimento aprendidas no curso. A refatoração do código, a criação de *hooks* customizados e a utilização de ferramentas de debug foram fundamentais para tornar a aplicação mais escalável e fácil de manter.
+
+## Próximos Passos
+
+*   [Liste algumas ideias para aprimorar o projeto. Ex: "Implementar testes unitários e de integração.", "Adicionar autenticação de usuários.", "Melhorar a interface do usuário.", "Implementar novas funcionalidades."]
